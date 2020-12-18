@@ -1,0 +1,16 @@
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\bin\Debug\netstandard2.1\CA3.StaticWebAssets.xml
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\bin\Debug\netstandard2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\bin\Debug\netstandard2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\bin\Debug\netstandard2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\bin\Debug\netstandard2.1\CA3Tests.deps.json
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\bin\Debug\netstandard2.1\CA3Tests.dll
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\bin\Debug\netstandard2.1\CA3Tests.pdb
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\bin\Debug\netstandard2.1\CA3.dll
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\bin\Debug\netstandard2.1\CA3.pdb
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\obj\Debug\netstandard2.1\CA3Tests.csprojAssemblyReference.cache
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\obj\Debug\netstandard2.1\CA3Tests.AssemblyInfoInputs.cache
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\obj\Debug\netstandard2.1\CA3Tests.AssemblyInfo.cs
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\obj\Debug\netstandard2.1\CA3Tests.csproj.CoreCompileInputs.cache
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\obj\Debug\netstandard2.1\CA3Tests.csproj.CopyComplete
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\obj\Debug\netstandard2.1\CA3Tests.dll
+D:\College\EAD1\Labs\CA3\CA3\CA3Tests\obj\Debug\netstandard2.1\CA3Tests.pdb

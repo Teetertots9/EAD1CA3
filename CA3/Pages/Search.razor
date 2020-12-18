@@ -1,0 +1,30 @@
+﻿@page "/search"
+@inject HttpClient Http
+
+
+<h1> Search Beers</h1>
+@if (ErrorMessage != null)
+{
+    <h2 color="red">@ErrorMessage</h2>
+}
+
+<EditForm Model="@search" OnValidSubmit="SearchTables">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <label>
+        Search Options
+        <InputSelect @bind-Value="search.searchOption">
+            <option value="">Search By</option>
+            <option value="food">Food Pairings</option>
+            <option value="abv_gt">Greater than ABV</option>
+            <option value="abv_lt">Less than ABV</option>
+            <option value="brewed_after">Brewed After</option>
+            <option value="brewed_before">Brewed Before</option>
+        </InputSelect>
+    </label>
+
+    <InputText id="searchText" @bind-Value="search.searchText" />
+
+    <button type="submit">Search</button>
+</EditForm>
+<Table Beers="@Beer" isSearch="true"></Table>

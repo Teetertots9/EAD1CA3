@@ -1,0 +1,71 @@
+{
+  "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\CA3.csproj",
+  "Configuration": {
+    "ConfigurationName": "Default",
+    "LanguageVersion": "5.0",
+    "Extensions": []
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 900
+  },
+  "RootNamespace": "CA3",
+  "Documents": [
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\Pages\\PageNav.razor",
+      "TargetPath": "Pages\\PageNav.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\Pages\\Index3.razor",
+      "TargetPath": "Pages\\Index3.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\Pages\\Table.razor",
+      "TargetPath": "Pages\\Table.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\Pages\\Index2.razor",
+      "TargetPath": "Pages\\Index2.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\Pages\\Search.razor",
+      "TargetPath": "Pages\\Search.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\College\\EAD1\\Labs\\CA3\\CA3\\CA3\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

@@ -1,0 +1,81 @@
+﻿<div class="tCSS">
+    <table class="table-striped table-dark">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Tagline</th>
+                <th>Description</th>
+                <th>First Brewed</th>
+                <th>ABV</th>
+                <th>Food Pairings</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (isSearch)
+            {
+
+                @if (Beers != null && Beers.Length > 0)
+                {
+                    @foreach (var beer in Beers)
+                    {
+                        <tr>
+                            <td>@beer.id</td>
+                            <td>
+                                @beer.name
+                            </td>
+                            <td>@beer.tagline</td>
+                            <td>@beer.description</td>
+                            <td>@beer.first_brewed</td>
+                            <td>@beer.abv</td>
+                            <td>
+                                @foreach (var food in beer.food_pairing)
+                                {
+                                    <p>@food,</p>
+                                }
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <td>No Values, please make/adjust search</td>
+                }
+            }
+            else
+            {
+
+                @foreach (var beer in Beers)
+                {
+                    <tr>
+                        <td>@beer.id</td>
+                        <td>
+                            @beer.name
+                        </td>
+                        <td>@beer.tagline</td>
+                        <td>@beer.description</td>
+                        <td>@beer.first_brewed</td>
+                        <td>@beer.abv</td>
+                        <td>
+                            @foreach (var food in beer.food_pairing)
+                            {
+                                <p>@food,</p>
+                            }
+                        </td>
+                    </tr>
+                }
+
+
+            }
+        </tbody>
+    </table>
+</div>
+
+@code
+{
+    [Parameter]
+    public Root[] Beers { get; set; }
+
+    [Parameter]
+    public bool isSearch { get; set; } = false;
+}

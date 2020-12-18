@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\College\EAD1\Labs\CA3\CA3\CA3\bin\Release\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor" Path="C:\Users\Alice\.nuget\packages\syncfusion.blazor\18.4.0.30\build\..\staticwebassets\" />
+</StaticWebAssets>

@@ -1,0 +1,15 @@
+﻿@page "/"
+@inject HttpClient Http
+
+@if (Main == null)
+{
+    <p>Rate limit is 3600 requests per hour so this may have been reach</p>
+    <p>Or there is an issue with reaching the API</p>
+    <p>@ErrorMessage</p>
+}
+else
+{
+    <h1>Beers</h1>
+    <PageNav></PageNav>
+    <Table Beers="@Main"></Table>
+}
